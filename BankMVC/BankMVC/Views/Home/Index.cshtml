@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Banking System</h1>
+    <p class="lead">You can manage customers, bank accounts and bank account types from here</p>
+    @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Manage Customers</h2>
+        <p>
+            Create new customers, edit customer details, assign a bank account to a customer or delete a customer.
+        </p>
+        @Html.ActionLink("Customers Management", "Index", "Customer")
+    </div>
+    <div class="col-md-4">
+        <h2>Manage BankAccounts</h2>
+        <p>Add a new bank account to a customer, deposit or withdraw an amount from a bank account, edit bank account details or delete a bank account.</p>
+        @Html.ActionLink("Bank Accounts Management", "Index", "BankAccount")
+    </div>
+    <div class="col-md-4">
+        <h2>Bank Account Types</h2>
+        <p>Add or remove a bank account type</p>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Start &raquo;</a></p>*@
+    </div>
+</div>

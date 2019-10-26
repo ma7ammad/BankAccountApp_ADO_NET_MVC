@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Pocos.BankAccount>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Manage Bank Accounts</h2>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Add Bank Account</h2>
+        <p>
+            Add A New BankAccount To an Existing Customer.
+        </p>
+        @Html.ActionLink("Add", "Create")
+
+    </div>
+    <div class="col-md-4">
+        <h2>List All BankAccounts</h2>
+        <p>Display a detailed list of all Bank Accounts, with the option to deposit or withdraw from any bank account in the list.</p>
+        @Html.ActionLink("List", "GetAllBankAccounts", "BankAccount")
+    </div>
+    <div class="col-md-4">
+        <h2>Search Bank Account</h2>
+        <p>Search and display a bank account by Id.</p>
+
+    </div>
+</div>

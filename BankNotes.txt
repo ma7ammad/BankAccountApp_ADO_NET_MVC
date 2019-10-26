@@ -1,0 +1,306 @@
+*Always get you DbServices Reference from original files (Pocos folder, Reposiory Folder)
+
+Pocos.dll
+Repository.dll
+System.ServiveModel  (from Assemblies->Framework)
+
+*using Pocos;
+using System.ServiceModel;
+
+namespace BankDbService
+{
+    interface IBankAccountService
+
+ServiceApp Could be hosted in a console app
+
+*Add a new project : BankServiceWebHost 
+
+*right click on webhost project and set as start project.
+
+*add reference to BankDbService
+
+*Version is wcf express free for dev's
+
+*delete IService.Cs 
+
+*Delete Service1.cs but not the parent Service1.svc
+
+*BankDbService.BankAccountService
+in Service1.svc edit
+<%@ ServiceHost Language="C#" Debug="true" Service="BankDbService.BankAccountService" 
+
+*Rename Servive1.svc to BankService.svc
+
+* set BankService.svc as start page
+
+*copy connectionstring from entityframework-appConfig to underneath the
+<configSections>-tag in your web.config
+
+*copy paste from entity-solution EntityFramework.SqlServer.dll
++EntityFramework.SqlServer.xml
+
+*change start from windows explorer to Google Chrome.
+
+*Click on Start-GoogleChrome
+* Add in your Entity framework project in the repository classed with methodes:
+
+bankContext.Configuration.ProxyCreationEnabled = false;
+
+*To add a service:
+. Select “Add Service” from the File menu or the context menu of the "My Service Projects"
+. Enter the service metadata address in the input area, and click "OK"
+
+To test a service operation:
+. Double click the operation you want to test from the tree on the left pane
+. A new tab page will appear on the right pane
+. Enter the value of parameters in the Request Area of the right pane
+. Click "Invoke" button
+
+*GetBankAccounts not working??????
+*GetBankAccountById not working????
+
+* To Add a new Service in BankServiceWeb-Project:
+1.Right click on BankServiceWeb-project
+2.select add new item
+3.select WCF Service , and gve it a name : DepositingService
+4.Follow the steps above.
+
+* from the WCF-Test-Client copy the "http//..."-address.
+*creat a new solution Right click on references and add Service-reference: 
+click advanced ->under: Data Type: change:"Collection Type" from "System.Array" To 
+"System.Collections.Generic.List".
+*On the same screen click "Go" : interface I.. appears on left click on it to see
+implemented methodes.
+*click ok.
+
+*In "Program" instantiate a new client object (BankAccountServiceClient). If dont know:
+a good guess would be added "Servive-Name"Client. Otherwise double-click on "BankAccountServiceReference"
+-> check names available : it is the one ending with Client.
+
+*create in your "Program" ur desired functionality.
+
+*BankDbConsoleApp.BankAccountServiceReference.BankAccountServiceClient
+
+
+******************
+*Asp.Net Web Application : choose an MVC
+*Model folder not much as we done it already.
+*App-config -> RouteConfig
+* url: "{controller}/{action}/{id}", : refers to a methode not a file.
+*controller -> homecontroller: add methode at bottom
+{ return "Hello World";}
+*launch app in googlechrome and add at the end of the url :"/home/helloworld"
+
+*views -> home has a view for each controller
+*/home = /index
+*right click on solution -> add -> add existing project -> browse for pocos and select the cspro file 
+
+* right click on references add ref then add reference to Pocos
+
+*How to add a service to MVC:
+1. In Project BankMVC right click on references -> Add Service Reference
+2. From Your Services-Solution, run the service you want to add , then copy te link to that service
+3. On your Mv-Solution pase the copied url into the add-Service-window.
+4. On the same window: click on "Go": the service will appear on the dark-left-hand-side,
+you can keep double-clicking to see the service, click now on "Advanced".
+5. On "Advanced", under "Data Type" change the "collection type" to "System.colections.generic.list".
+5. In the same "Advanced" window: select "Reuse types in specified reference Assemblies", then under this one 
+search and select "Pococs".
+6. Click "Ok" on the "Advanced" window
+7. Click "Ok" on the "Add Service Reference" window.
+Done.
+*************
+
+*right click on controllers add controller then add mvc controller with
+read/write actions (BankAccountController)
+
+*right click on index -> add view on BankAccount-views then add th poco-class (BankAccount) u want to view
+*The Service must be running for MVc to run.
+*add in your bankAccount controller : using BankMVC.BankAccountService;
+using Pocos;
+*in bankaccount controller also add : 
+
+BankAccountServiceClient client;
+        public BankAccountController()
+        {
+            client = new BankAccountServiceClient();
+        }
+*Ammend the get methode to look like:
+// GET: BankAccount
+        public ActionResult Index()
+        {
+            List<BankAccount> bankAccounts = client.GetBankAccounts();
+            return View(bankAccounts);
+        }
+*Launch app on googlechrome and add to the url "/bankaccount".
+
+*Error Message:
+The view 'Withdraw' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Withdrawing/Withdraw.aspx
+~/Views/Withdrawing/Withdraw.ascx
+~/Views/Shared/Withdraw.aspx
+~/Views/Shared/Withdraw.ascx
+~/Views/Withdrawing/Withdraw.cshtml
+~/Views/Withdrawing/Withdraw.vbhtml
+~/Views/Shared/Withdraw.cshtml
+~/Views/Shared/Withdraw.vbhtml
+Solution: 
+right click on the methode in the controller: add view: select model to be "DepositingWithdrawingViewModel", 
+delete "Context", unselect partial view if selected.
+
+*to handle Exceptions in MVc follow the following steps:
+1. create a Model called "Error" to build a view based on it.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace BankMVC.Models
+{
+    public class ErrorModel
+    {
+        public string Error { get; set; }
+    }
+}
+
+2. Set the try catch statement to catch the  exception that you want to handle.
+catch (Exception e)
+            {
+                return RedirectToAction("Error", "Error", new { message = e.Message });
+            }
+this means 1st "Error" will be the "ActionName", the 2nd "Error" will be the "ControllerName".
+
+3. create the Error-View:
+
+@model BankMVC.Models.ErrorModel
+
+@{
+    ViewBag.Title = "Error";
+}
+@Html.AntiForgeryToken()
+<h2>Error</h2>
+<hr />
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Error)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Error)
+        </dd>
+    </dl>
+</div>
+
+4. create the "Error" controller:
+
+using BankMVC.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace BankMVC.Controllers
+{
+    public class ErrorController : Controller
+    {
+        // GET: Error
+        public ActionResult Index()
+        {
+            return View();
+        }
+        [ValidateInput(false)]
+        public ActionResult Error(string message)
+        {
+            ErrorModel errorModel = new ErrorModel();
+            errorModel.Error = message;
+            return View(errorModel);
+        }
+    }
+}
+
+5. In All projects: stop compiler from breaking at every Excedption either handeled 
+by user code or not:
+In the manu-bar (at top) Debug -> Exception -> untick All "Thrown" + 
+Untick Common Language Runtime Exceptions.
+
+6. At the top of each Service class that would be throwing an exception, add the following tag:
+
+namespace BankDbService
+{
+    [ServiceBehavior(IncludeExceptionDetailInFaults=true)]
+
+    public class WithdrawingService : IWithdrawingService
+    {
+
+right click on the tag and resolve buy selecting : "using System.ServiceModel;"
+
+
+Banking System finished and presented yesterday friday 08/09/2017
+*****************************************************************************************
+*****************************************************************************************
+******************************************************************************************
+Error:
+When trying to execute a running service method:
+An exception of type 'System.InvalidOperationException' occurred in mscorlib.dll but was not handled in user code
+
+Additional information: The Entity Framework provider type 'System.Data.Entity.SqlServer.SqlProviderServices,
+ EntityFramework.SqlServer' registered in the application config file for the ADO.NET provider with invariant name 'System.Data.SqlClient' could not be loaded. 
+Make sure that the assembly-qualified name is used and that the assembly is available to the running application.
+ See http://go.microsoft.com/fwlink/?LinkId=260882 for more information.
+
+Solution: 
+You might be missing references in your Service-Solution.
+-Navigate in windows explorer to the solution that contains your Repositories and Pocos -> \packages -> EntityFramework.6.1.3 -> lib -> \net45
+my solution is called "BankingAppProjectFix".
+...\OODDotNet\BankingAppProjectFix\packages\EntityFramework.6.1.3\lib\net45
+copy the two files: 1) EntityFramework.SqlServer.dll 2) EntityFramework.SqlServer.xml
+Paste the file in your Service-Solution in the WebHost-Project in the "bin" folde. My Service-Solution is called "BankDbService"
+and my WebHost-Project is called "BankServiceWebHost".
+...\OODDotNet\BankDbService\BankServiceWebHost\bin
+run the Service again the mothods should execute.
+
+Situation: 
+If you add new methodes to your MVC, add them in Repositories then update your service solution, 
+then delete the MVC-corresponding service and add it again; do not foget to change the advanced
+reference setting to "System.colections.generic.list". now you can use telesense to use th new added method.
+
+
+Error:
+Failed to invoke the service. Possible causes: The service is offline or inaccessible; the client-side configuration does not match the proxy;
+ the existing proxy is invalid. Refer to the stack trace for more detail. 
+You can try to recover by starting a new proxy, restoring to default configuration, or refreshing the service.
+
+Solution: 
+Your repository method is not right, check logics and adjust.
+
+1. List all Customers.						(Done)
+2. Solve dependencies by ctors in controllers.   		(Done)
+3. create GetCustomerById Service and in controller.		(Done)
+4. create delete customer repo, service, controller and view.	(Done)
+5. create edit customer repo, service, controller and view.	(Done)
+6. get customer + accounts repo, service, controller and view.
+3. Try Encapsulation.
+4. 
+
+
+git commit -m "customer GetAllCustomers + GetById + Detele + GetAllCustomerBankAccounts + dependencies solved"
+
+
+
+*************************************
+
+Error:
+An exception of type 'System.ServiceModel.EndpointNotFoundException' occurred in mscorlib.dll but was not handled in user code
+
+Additional information: There was no endpoint listening at http://localhost:52979/BlogService.svc that could accept the message. 
+This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Solution:
+makesure your service is running in the service-solution. otherwise delete and re-add the 
+service in you MVC-solution and possibly also service-solution.
+
+
+
+

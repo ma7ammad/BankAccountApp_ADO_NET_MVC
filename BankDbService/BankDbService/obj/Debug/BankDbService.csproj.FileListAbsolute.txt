@@ -1,0 +1,13 @@
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\BankDbService.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\BankDbService.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\BankingAppRepository.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\Pocos.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\BankingAppContext.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\BankingAppRepository.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\Pocos.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\BankingAppContext.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\obj\Debug\BankDbService.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\obj\Debug\BankDbService.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankDbService\obj\Debug\BankDbService.pdb

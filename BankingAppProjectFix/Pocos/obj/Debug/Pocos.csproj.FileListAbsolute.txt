@@ -1,0 +1,5 @@
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\bin\Debug\Pocos.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\bin\Debug\Pocos.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\obj\Debug\Pocos.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\obj\Debug\Pocos.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\obj\Debug\Pocos.pdb

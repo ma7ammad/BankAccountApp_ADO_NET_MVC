@@ -1,0 +1,16 @@
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankConsole.exe.config
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankConsole.exe
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankConsole.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankingAppRepository.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\Pocos.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankingAppContext.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankingAppRepository.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\Pocos.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\bin\Debug\BankingAppContext.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\obj\Debug\BankConsole.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\obj\Debug\BankConsole.exe
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankConsole\obj\Debug\BankConsole.pdb

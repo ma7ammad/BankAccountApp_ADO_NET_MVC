@@ -1,0 +1,14 @@
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\BankingAppContext.dll.config
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\BankingAppContext.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\BankingAppContext.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\Pocos.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\Pocos.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\obj\Debug\BankingAppContext.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\obj\Debug\BankingAppContext.Migrations.WCFedtition.resources
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\obj\Debug\BankingAppContext.csproj.GenerateResource.Cache
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\obj\Debug\BankingAppContext.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\BankingAppContext\obj\Debug\BankingAppContext.pdb

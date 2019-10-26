@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Pocos.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Manage Customers</h2>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Create Customer</h2>
+        <p>
+            Creates A New customer and save entry to Data  Base.
+        </p>
+        @Html.ActionLink("Create", "Create")
+
+    </div>
+    <div class="col-md-4">
+        <h2>List Customers</h2>
+        <p>Display a detailed list of all customers.</p>
+        @Html.ActionLink("List", "GetAllCustomers", "Customer")
+    </div>
+    <div class="col-md-4">
+        <h2>Search Customer BankAccounts</h2>
+        <p>Search and display all Bank Accounts that belong to a certain customer.</p>
+        @Html.ActionLink("List All Bank Accounts", "GetAllCustomerBankAccounts")
+    </div>
+</div>

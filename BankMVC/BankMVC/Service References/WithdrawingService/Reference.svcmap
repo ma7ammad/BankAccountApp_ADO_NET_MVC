@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="438253ae-e737-4c25-8ad1-e889a75f579b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="Pocos" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50885/WithdrawingService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WithdrawingService.xsd" MetadataType="Schema" ID="8fbdbf5f-0bbf-4f42-a712-5874f291ba6f" SourceId="1" SourceUrl="http://localhost:50885/WithdrawingService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WithdrawingService.disco" MetadataType="Disco" ID="69dd5010-620d-4f95-8821-8e8b81907793" SourceId="1" SourceUrl="http://localhost:50885/WithdrawingService.svc?disco" />
+    <MetadataFile FileName="WithdrawingService1.xsd" MetadataType="Schema" ID="11d85f7e-f3f0-4ed4-be3c-59fa37d6f7bb" SourceId="1" SourceUrl="http://localhost:50885/WithdrawingService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WithdrawingService.wsdl" MetadataType="Wsdl" ID="f96b2373-9fe2-4a77-b06c-aeac62ebed63" SourceId="1" SourceUrl="http://localhost:50885/WithdrawingService.svc?wsdl" />
+    <MetadataFile FileName="WithdrawingService2.xsd" MetadataType="Schema" ID="c5afa4ab-589b-42ee-bded-28c2f7b86ce2" SourceId="1" SourceUrl="http://localhost:50885/WithdrawingService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

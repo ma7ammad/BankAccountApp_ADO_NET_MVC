@@ -1,0 +1,16 @@
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankServiceWebHost.dll.config
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankServiceWebHost.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankServiceWebHost.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankDbService.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\Pocos.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankingAppRepository.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankingAppContext.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\EntityFramework.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankDbService.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\Pocos.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankingAppRepository.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\BankingAppContext.pdb
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\bin\EntityFramework.xml
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\obj\Debug\BankServiceWebHost.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\obj\Debug\BankServiceWebHost.dll
+C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankDbService\BankServiceWebHost\obj\Debug\BankServiceWebHost.pdb

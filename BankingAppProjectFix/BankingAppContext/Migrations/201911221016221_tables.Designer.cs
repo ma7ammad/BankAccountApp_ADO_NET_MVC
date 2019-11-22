@@ -7,13 +7,13 @@ namespace BankingAppContext.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class WCFedtition : IMigrationMetadata
+    public sealed partial class tables : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(WCFedtition));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(tables));
         
         string IMigrationMetadata.Id
         {
-            get { return "201708301246028_WCF edtition"; }
+            get { return "201911221016221_tables"; }
         }
         
         string IMigrationMetadata.Source

@@ -20,7 +20,7 @@ namespace BankingAppContext
         {
         }
 
-        public BankContext()
+        public BankContext() : base("BankContext")
         {
         }
 

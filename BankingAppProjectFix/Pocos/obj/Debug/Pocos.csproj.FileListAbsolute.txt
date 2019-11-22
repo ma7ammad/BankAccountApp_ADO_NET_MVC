@@ -3,3 +3,8 @@ C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\
 C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\obj\Debug\Pocos.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\obj\Debug\Pocos.dll
 C:\Users\User\Documents\DOTNET\DotNetClone\OODDotNet\BankingAppProjectFix\Pocos\obj\Debug\Pocos.pdb
+C:\Users\Nadia.Khan\Documents\BankAccountApp_ADO_NET_MVC\BankingAppProjectFix\Pocos\bin\Debug\Pocos.dll
+C:\Users\Nadia.Khan\Documents\BankAccountApp_ADO_NET_MVC\BankingAppProjectFix\Pocos\bin\Debug\Pocos.pdb
+C:\Users\Nadia.Khan\Documents\BankAccountApp_ADO_NET_MVC\BankingAppProjectFix\Pocos\obj\Debug\Pocos.csproj.CoreCompileInputs.cache
+C:\Users\Nadia.Khan\Documents\BankAccountApp_ADO_NET_MVC\BankingAppProjectFix\Pocos\obj\Debug\Pocos.dll
+C:\Users\Nadia.Khan\Documents\BankAccountApp_ADO_NET_MVC\BankingAppProjectFix\Pocos\obj\Debug\Pocos.pdb

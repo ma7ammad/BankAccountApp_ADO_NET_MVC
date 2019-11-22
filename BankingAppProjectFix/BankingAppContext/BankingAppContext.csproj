@@ -49,9 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankContext.cs" />
-    <Compile Include="Migrations\201708301246028_WCF edtition.cs" />
-    <Compile Include="Migrations\201708301246028_WCF edtition.Designer.cs">
-      <DependentUpon>201708301246028_WCF edtition.cs</DependentUpon>
+    <Compile Include="Migrations\201911221016221_tables.cs" />
+    <Compile Include="Migrations\201911221016221_tables.Designer.cs">
+      <DependentUpon>201911221016221_tables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,8 +69,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201708301246028_WCF edtition.resx">
-      <DependentUpon>201708301246028_WCF edtition.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911221016221_tables.resx">
+      <DependentUpon>201911221016221_tables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
